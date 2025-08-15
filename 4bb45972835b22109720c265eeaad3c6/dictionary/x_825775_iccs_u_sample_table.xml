@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dad9f932831f22109720c265eeaad31d" label="u_sample_table" max_length="40" name="x_825775_iccs_u_sample_table" type="collection">
+        <element label="Clm1" max_length="40" name="clm1" type="string"/>
+    </element>
+</database>
