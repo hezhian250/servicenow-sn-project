@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="48275db6835b22109720c265eeaad358" label="Request_List" max_length="40" name="x_825775_iccs_request_list" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Details" max_length="40" name="details" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="title" type="string"/>
+        <index name="index">
+            <element name="requester"/>
+        </index>
+    </element>
+</database>
